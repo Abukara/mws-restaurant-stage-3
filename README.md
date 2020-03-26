@@ -140,6 +140,9 @@ http://localhost:1337/reviews/<review_id>
 http://localhost:1337/reviews/<review_id>
 ```
 
+Example of Pictures of the Webapp:
 
-If you find a bug in the source code or a mistake in the documentation, you can help us by
-submitting an issue to our [Waffle Dashboard](https://waffle.io/udacity/mwnd-issues). Even better you can submit a Pull Request with a fix :)
+![alt text](https://github.com/Lukas-Forst/mws-restaurant-stage-3/blob/master/ProjectExample.gif)
+
+
+
