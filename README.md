@@ -1,5 +1,19 @@
+# Setup
+#### Download the html files of [restaurant-mws start](https://github.com/Lukas-Forst/mws-restaurant-stage-1) the Python server. For python2:
+```
+python -m SimpleHTTPServer 8000
+```
+#### Python 3.x
+````
+python3 -m http.server 8000
+````
+#### Then use the following Commands
+
 # Local Development API Server
 ## Usage
+
+
+
 #### Get Restaurants
 ```
 curl "http://localhost:1337/restaurants"
@@ -25,11 +39,6 @@ Local server
 ### Development local API Server
 _Location of server = /server_
 Server depends on [node.js LTS Version: v6.11.2 ](https://nodejs.org/en/download/), [npm](https://www.npmjs.com/get-npm), and [sails.js](http://sailsjs.com/)
-Please make sure you have these installed before proceeding forward.
-
-Great, you are ready to proceed forward; awesome!
-
-Let's start with running commands in your terminal, known as command line interface (CLI)
 
 ###### Install project dependancies
 ```Install project dependancies
@@ -43,7 +52,7 @@ Let's start with running commands in your terminal, known as command line interf
 ```Start server
 # node server
 ```
-### You should now have access to your API server environment
+### You should now have access to the API server environment
 debug: Environment : development
 debug: Port        : 1337
 
@@ -140,7 +149,7 @@ http://localhost:1337/reviews/<review_id>
 http://localhost:1337/reviews/<review_id>
 ```
 
-Example of Pictures of the Webapp:
+Working example of the Webapp:
 
 ![alt text](https://github.com/Lukas-Forst/mws-restaurant-stage-3/blob/master/ProjectExample.gif)
 
